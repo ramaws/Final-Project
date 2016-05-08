@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+<head>
+<title>TALLAREVU</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+   <link href="css/style.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ 
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>   
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<style>
+.navbar-default {
+	background-color:#278bbf;
+	border:none!important;
+	padding:0px;
+	}
+	.navbg{
+	 background-color: #278bbf;
+	height:50px;
+	
+}	
+	
+	.navbar-toggle {
+	background-color:white!important;
+	}
+.navbar-collapse{
+	width:100%;
+	background-color:#278bbf;
+	
+	}
+	
+.nav navbar-nav{
+	font-weight:600;
+	padding:26px 60px;
+	
+	}	
+
+	
+.nav li a{
+	padding:15px 22px!important;
+	font-size:15px;
+	font-weight:600;
+	color:#278bbf;
+	}
+	footer{
+background-color: #363C44;
+position:relative;
+bottom:0;
+width:102.5%;
+   height:60px;
+   margin-top:30px;
+}
+footer p {
+    color: white;
+    padding: 20px ;
+    font-family:  "Open Sans",sans-serif;
+	
+	
+}
+ ul.nav li.dropdown:hover ul.dropdown-menu {
+            display: block;
+        }
+</style>
+<body>
+<header>
+<!--logoarea stat-->
+	<div class="container logoarea">
+    	<div class="row">
+        	<div class="col-lg-9">
+            	<a href="index.html"><img src="images/logo.jpg"/>
+            </div>
+			<div class="col-lg-3 col-sm-3 col-md-3 hidden-xs" >		
+				<div style="padding:19px;">				
+                  <a href="#"><img width="35" height="35" src="http://themes.bootstrappage.com/botshop/themes/img/facebook.png" title="facebook" alt="facebook"/></a>
+                  <a href="#"><img width="35" height="35" src="http://themes.bootstrappage.com/botshop/themes/img/twitter.png" title="twitter" alt="twitter"/></a>                  
+                  <a href="#"><img width="35" height="35" src="http://themes.bootstrappage.com/botshop/themes/img/youtube.png" title="youtube" alt="youtube"/></a>             
+				</div>  
+			</div>
+        	</div>
+     </div>
+<!--logoarea end-->
+
+<!--nav stat here-->
+	 <div class="container-fluid navbg">
+    	<nav role="navigation" class="navbar navbar-default">
+     
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+           
+        </div>
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse" style="position:absolute;
+        z-index:9999;">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html" style="color:white" >HOME</a></li>
+				<li><a href="about.html" style="color:white" >ABOUT US</a></li>
+				 
+                <li><a href="socialservice.html" style="color:white" >SOCIAL SERVICE</a></li>
+                
+				<li><a href="education.html" style="color:white" >EDUCATION</a></li>
+				<li><a href="politics.html" style="color:white" >POLITICS</a></li>
+				
+               
+                  <li><a href="gallery.html"style="color:white" >GALLERY</a></li>
+                  <li><a href="contact.html"style="color:white" >CONTACT US</a></li>
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+    </div>
+<!--nav end here-->
+
+</header>
+<!--bannerarea-->
+<div class="container contactarea">
+
+	<div class="row"><br>
+    <h2 style="text-align:center;">GET IN TOUCH</h2><BR>
+
+    <div class="col-lg-1"></div>
+    	<div class="col-lg-10 col-md-10 col-sm-10  contact-bg">
+    
+    <form class="form-horizontal" role="form" method="post" action="contacts.php">
+    <div class="form-group">
+        <label for="name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+            <input style="height:50px;" type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="email" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+            <input style="height:50px;" type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+        </div>
+    </div>
+	<div class="form-group">
+	<label for="phone" class="col-sm-2 conrol-label">Phone</label>
+	<div class="col-sm-10">
+	<input style="height:50px;" type="phone" class="form-control" id="phone" name="phone" placeholder="phone number" value="">
+	</div>
+	</div>
+    <div class="form-group">
+        <label for="message" class="col-sm-2 control-label">Message</label>
+        <div class="col-sm-10">
+            <textarea class="form-control" rows="4" name="message"></textarea>
+        </div>
+    </div>
+   
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+            <input id="submit" name="submit" type="submit" value="Send Message" class="btn btn-primary">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+            <! Will be used to display an alert to the user>
+        </div>
+    </div>
+</form>
+    </div>
+
+    <div class="col-lg-1"></div>
+
+</div>
+</div>
+
+
+<br><br>
+<section>
+<div class="container address">
+    	<div class="row">
+        	<div class="col-lg-6 col-sm-6 col-md-6">
+            <h2>ADDRESS</h2>
+            <P>TALLAREVU<br>
+			EASTGODAVARI DISTRICT<br>
+ ANDHRAPADESH 533463.<br>
+INDIA<br><br>
+
+<strong>Mobile:</strong> 9886706444<br>
+<strong>Mobile:</strong> 9886142166<br>
+<strong>E-Mail:</strong>ramachandra@gmail.com<br>
+<strong>E-Mail:</strong>kvserao@gmail.com</P>
+</div>
+ <div class="col-lg-6 col-sm-6 col-md-6">
+ <div style="text-decoration:none; overflow:hidden; height:500px; width:500px; max-width:100%;">
+ <div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122169.58837422208!2d82.16887383602862!3d16.885803267113452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3820168e2e794f%3A0x766ca221a0658c53!2sTallarevu%2C+Andhra+Pradesh+533463%2C+India!5e0!3m2!1sen!2sin!4v1457355791043" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+ </div>
+ <a class="google-code" href="https://www.bootstrapskins.com/prestashop-themes" id="auth-maps-data">bootstrap prestashop themes</a><style>#embedded-map-display .map-generator{max-width: 100%; max-height: 100%; background: none;</style></div>
+         
+     </div>       
+            
+            </div>
+
+ </div></section>
+	
+   
+
+<footer>
+	<div class="container-fluid">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-lg-9 col-sm-9 col-md-9">
+                <p>Copyright 2016 TALLAREVU.COM&nbsp;&nbsp;|&nbsp;&nbsp;  All Rights Reserved.</p>
+                
+                </div>
+                <div class="col-lg-3 col-sm-3 col-md-3">
+                
+                <!--<p>Developed By <em>BIG DESIGNS</em></p>-->
+				<div style="padding:19px;">				
+                  <a href="#"><img width="35" height="35" src="http://themes.bootstrappage.com/botshop/themes/img/facebook.png" title="facebook" alt="facebook"/></a>
+                  <a href="#"><img width="35" height="35" src="http://themes.bootstrappage.com/botshop/themes/img/twitter.png" title="twitter" alt="twitter"/></a>                  
+                  <a href="#"><img width="35" height="35" src="http://themes.bootstrappage.com/botshop/themes/img/youtube.png" title="youtube" alt="youtube"/></a>             
+				</div>
+                
+                </div>
+            </div>
+                </div>
+    
+    </div>
+</footer>
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
